@@ -27,10 +27,10 @@ while True:
  ch = r.recognize_google(audio) 
 
  if ("date" in ch) and ("run" in ch):
-  		webbrowser.open("http://192.168.43.25/cgi-bin/iiec.py?x=date")
+  		webbrowser.open("http://192.168.43.26/cgi-bin/iiec.py?x=date")
 
  elif ("calander" in ch) and ("run" in ch):
-  		webbrowser.open("http://192.168.43.25/cgi-bin/iiec.py?x=cal")
+  		webbrowser.open("http://192.168.43.26/cgi-bin/iiec.py?x=cal")
 
  elif (("launch" in ch) or ("run" in ch) or("execute" in ch) or ("open" in ch)) and (("chrome" in ch) or ("google chrome") or ("BROWSER" in ch)):
 		pyttsx3.speak("launching chrome for you")
